@@ -1,0 +1,21 @@
+{
+  "name": "Svelte-Coffeescript-Template",
+  "productName": "io.mautly.svelte-coffeescript-template",
+  "version": "0.0.1",
+  "description": "Template using Svelte and Coffeescript",
+  "main": "main.js",
+  "scripts": {
+    "package-mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --icon=assets/icons/mac/mokatechnologies_logo.icns --prune=false --out=release-builds",
+    "package-win": "electron-packager . --overwrite --platform=win32 --arch=ia32 --icon=assets/icons/win/mokatechnologies_logo.ico --prune=false --out=release-builds",
+    "package-linux": "electron-packager . --overwrite --platform=linux --arch=x64 --icon=assets/icons/png/mokatechnologies_logo.png --prune=false --out=release-builds"
+  },
+  "author": "Dr. Perez Ponce, Hector",
+  "license": "MIT",
+  "devDependencies": {
+    "coffeescript": "^1.12.7",
+    "electron": "^11.5.0",
+    "electron-packager": "^14.2.1"
+  },
+  "dependencies": {
+  }
+}
